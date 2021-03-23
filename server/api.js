@@ -15,6 +15,10 @@ const {
 const minionsRouter = require('./minions.js');
 apiRouter.use('/minions', minionsRouter);
 
+// Import and mount the ideasRouter
+const ideasRouter = require('./ideas.js');
+apiRouter.use('/ideas', ideasRouter);
+
 
 /*
 // Check to see if the parameter is in the database. Yes: attach, No: send error
