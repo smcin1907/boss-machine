@@ -264,11 +264,11 @@ const deleteAllFromDatabase = (modelType) => {
 }
 
 module.exports = {
-  createMeeting,
-  getAllFromDatabase,
-  getFromDatabaseById,
-  addToDatabase,
-  updateInstanceInDatabase,
-  deleteFromDatabasebyId,
-  deleteAllFromDatabase,
+  createMeeting: createMeeting,
+  getAllFromDatabase: getAllFromDatabase,
+  getFromDatabaseById: getFromDatabaseById,
+  addToDatabase: addToDatabase,
+  updateInstanceInDatabase: updateInstanceInDatabase,
+  deleteFromDatabasebyId: deleteFromDatabasebyId,
+  deleteAllFromDatabase: deleteAllFromDatabase,
 };
