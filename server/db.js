@@ -264,6 +264,7 @@ const deleteAllFromDatabase = (modelType) => {
 }
 
 module.exports = {
+  createWork: createWork,
   createMeeting: createMeeting,
   getAllFromDatabase: getAllFromDatabase,
   getFromDatabaseById: getFromDatabaseById,
