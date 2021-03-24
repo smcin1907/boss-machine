@@ -19,6 +19,10 @@ apiRouter.use('/minions', minionsRouter);
 const ideasRouter = require('./ideas.js');
 apiRouter.use('/ideas', ideasRouter);
 
+// Import and mount the meetingsRouter
+const meetingsRouter = require('./meetings.js');
+apiRouter.use('/meetings', meetingsRouter);
+
 
 /*
 // Check to see if the parameter is in the database. Yes: attach, No: send error
